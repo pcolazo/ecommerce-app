@@ -1,0 +1,70 @@
+.contenedor {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 32px;
+  width: 320px;
+  text-align: center;
+  border: 1px solid #222;
+}
+
+.imagen {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  margin: 16px 0;
+}
+
+.titulo {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.descripcion {
+  color: #aaa;
+  margin-bottom: 16px;
+}
+
+.precio {
+  color: #a855f7;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+.stock {
+  margin-bottom: 16px;
+}
+
+.boton {
+  padding: 10px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.boton:hover {
+  opacity: 0.9;
+}
+
+.link {
+  display: inline-block;
+  color: #a855f7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

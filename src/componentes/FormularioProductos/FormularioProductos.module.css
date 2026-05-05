@@ -1,0 +1,55 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: #111;
+  border: 1px solid #222;
+  gap: 16px;
+}
+
+.titulo {
+  color: white;
+  text-align: center;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.campo label {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.campo input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.campo input:focus {
+  outline: none;
+  border-color: #f27929;
+}
+
+.boton {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f27929;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.boton:hover {
+  background-color: #ff8c42;
+}

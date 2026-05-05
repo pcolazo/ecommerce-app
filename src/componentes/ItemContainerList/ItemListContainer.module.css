@@ -1,0 +1,12 @@
+.subtitulo {
+  text-align: center;
+  margin: 40px 0 30px;
+  font-size: 32px;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}

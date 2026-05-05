@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Curso de HTML y CSS",
+    "precio": 180000,
+    "stock": 10,
+    "imagen": "/imagenes/icons8-html-5-64.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Curso de JavaScript",
+    "precio": 129990,
+    "stock": 5,
+    "imagen": "/imagenes/icons8-js-64.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Curso de React",
+    "precio": 110000,
+    "stock": 15,
+    "imagen": "/imagenes/icons8-reaccionar-nativo-64.png"
+  }
+]

@@ -1,0 +1,75 @@
+.home {
+  min-height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contenido {
+  max-width: 900px;
+}
+
+.typewriter {
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 20px;
+  color: white;
+  font-size: 42px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #a855f7;
+  animation:
+    escribir 3s steps(39, end),
+    cursor 0.8s step-end infinite;
+}
+
+.descripcion {
+  color: #aaa;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 28px;
+  opacity: 0;
+  animation: aparecer 1s ease forwards;
+  animation-delay: 3.2s;
+}
+
+.boton {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 0;
+  animation: aparecer 1s ease forwards;
+  animation-delay: 3.8s;
+}
+
+.boton:hover {
+  opacity: 0.9;
+}
+
+@keyframes escribir {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 39ch;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes aparecer {
+  to {
+    opacity: 1;
+  }
+}

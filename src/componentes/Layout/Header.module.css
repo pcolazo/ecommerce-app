@@ -1,0 +1,11 @@
+.header {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-top: 5px;
+}
